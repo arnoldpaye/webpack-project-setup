@@ -9,7 +9,7 @@ function component () {
 
     // moment is required
     var now = moment().format('MMMM Do YYYY, h:mm:ss a');
-    console.log("Now", now);
+    console.log("Now:", now);
 
     return element;
 }
